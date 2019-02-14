@@ -107,12 +107,20 @@ _ADE20K_INFORMATION = DatasetDescriptor(
     num_classes=151,
     ignore_label=0,
 )
-
+_CAMVID_INFORMATION = DatasetDescriptor(
+    splits_to_sizes={
+        'train': 367,  # num of samples in images/training
+        'val': 101,  # num of samples in images/validation
+    },
+    num_classes=12, # classes(11) + ingore_label(1)
+    ignore_label=255,
+)
 
 _DATASETS_INFORMATION = {
     'cityscapes': _CITYSCAPES_INFORMATION,
     'pascal_voc_seg': _PASCAL_VOC_SEG_INFORMATION,
     'ade20k': _ADE20K_INFORMATION,
+    'camvid': _CAMVID_INFORMATION,
 }
 
 # Default file pattern of TFRecord of TensorFlow Example.
