@@ -115,12 +115,20 @@ _CAMVID_INFORMATION = DatasetDescriptor(
     num_classes=12, # classes(11) + ingore_label(1)
     ignore_label=255,
 )
-
+_TREEO_INFORMATION = DatasetDescriptor(
+    splits_to_sizes={
+        'train': 2032,  # num of samples in images/training
+        'val': 313,  # num of samples in images/validation
+    },
+    num_classes=3,
+    ignore_label=255,
+)
 _DATASETS_INFORMATION = {
     'cityscapes': _CITYSCAPES_INFORMATION,
     'pascal_voc_seg': _PASCAL_VOC_SEG_INFORMATION,
     'ade20k': _ADE20K_INFORMATION,
     'camvid': _CAMVID_INFORMATION,
+    'treeo': _TREEO_INFORMATION
 }
 
 # Default file pattern of TFRecord of TensorFlow Example.
