@@ -75,8 +75,8 @@ def add_softmax_cross_entropy_loss_for_each_scale(scales_to_logits,
         # LOSSWEIGTHS
         ignoore_weight = 0
         background_weight = 1
-        trunk_weight = 10
-        card_weight = 15
+        trunk_weight = 5
+        card_weight = 10
         not_ignore_mask = \
             tf.to_float(tf.equal(scaled_labels, 0)) * background_weight + \
             tf.to_float(tf.equal(scaled_labels, 1)) * trunk_weight + \
