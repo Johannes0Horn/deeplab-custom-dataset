@@ -32,9 +32,9 @@ flags.DEFINE_string('checkpoint_path', None, 'Checkpoint path')
 flags.DEFINE_string('export_path', None,
                     'Path to output Tensorflow frozen graph.')
 
-flags.DEFINE_integer('num_classes', 21, 'Number of classes.')
+flags.DEFINE_integer('num_classes', 3, 'Number of classes.')
 
-flags.DEFINE_multi_integer('crop_size', [513, 513],
+flags.DEFINE_multi_integer('crop_size', [360, 480],
                            'Crop size [height, width].')
 
 # For `xception_65`, use atrous_rates = [12, 24, 36] if output_stride = 8, or
