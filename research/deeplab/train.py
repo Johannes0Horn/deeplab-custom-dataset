@@ -247,7 +247,7 @@ def main(unused_argv):
 
   tf.gfile.MakeDirs(FLAGS.train_logdir)
   tf.logging.info('Training on %s set', FLAGS.train_split)
-  
+
   with tf.Graph().as_default() as graph:
     with tf.device(config.inputs_device()):
       samples = input_generator.get(
