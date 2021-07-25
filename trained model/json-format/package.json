@@ -1,0 +1,22 @@
+{
+  "name": "treeotfjsmodel",
+  "version": "1.0.0",
+  "description": "TensorflowJS Model for 'Treeo' App",
+  "main": "model.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johannes0Horn/treeoTfjsModel.git"
+  },
+  "keywords": [
+    "tensorflowjs"
+  ],
+  "author": "Johannes Horn",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Johannes0Horn/treeoTfjsModel/issues"
+  },
+  "homepage": "https://github.com/Johannes0Horn/treeoTfjsModel#readme"
+}
