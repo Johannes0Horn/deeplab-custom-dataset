@@ -1,6 +1,7 @@
-# TensorFlow Models
+# Deeplab on a custom Dataset
 
 This repository contains the official deeplab model implemented in [TensorFlow](https://www.tensorflow.org).
+
 Some small changes are made to use it for a custom Dataset.
 
 
