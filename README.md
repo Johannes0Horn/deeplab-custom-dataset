@@ -4,7 +4,7 @@ This repository contains the official deeplab model implemented in [TensorFlow](
 
 Some small changes are made to use it for a custom Dataset.
 
-Used together with [masksToDiameterService](https://github.com/Johannes0Horn/masksToDiameterService"Example") one can predict the diameter of a trunk from a photo of the trunk and a regukar credit card.
+Used together with [masksToDiameterService](https://github.com/Johannes0Horn/masksToDiameterService"Example") one can predict the diameter of a trunk from a photo of the trunk and a regular credit card.
 
 ## Example and Visualization:
 
