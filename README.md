@@ -8,6 +8,6 @@ Used together with [masksToDiameterService](https://github.com/Johannes0Horn/mas
 
 ## Example and Visualization:
 
-[Example in Browser](https://johannes0horn.github.io/masksToDiameterService/ "Example")
+[Example in Browser](https://johannes0horn.github.io/Treeo.AI/ "Example")
 
-![alt text](https://github.com/Johannes0Horn/masksToDiameterService/blob/master/screenshot.png)
+![alt text](https://github.com/Johannes0Horn/Treeo.AI/blob/master/screenshot.png)
